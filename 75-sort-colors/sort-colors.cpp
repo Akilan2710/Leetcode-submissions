@@ -8,6 +8,7 @@ public:
                 nums[k]=0;
                 k++;
             }
+            
         }
         int a=k;
         for(int i=a;i<nums.size();i++){
