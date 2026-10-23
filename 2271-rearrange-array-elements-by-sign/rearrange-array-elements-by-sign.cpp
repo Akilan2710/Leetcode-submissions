@@ -5,10 +5,10 @@ public:
         vector<int> res(s);
         for(int i=0;i<s;i++){
             if(nums[i]>0){
-                res[p]=nums[i];p+=2;
+                res[p]=nums[i];p=p+2;
             }
             else{
-                res[n]=nums[i];n+=2;
+                res[n]=nums[i];n=n+2;
             }
         }
         return res;
